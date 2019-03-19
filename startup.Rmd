@@ -1,0 +1,23 @@
+---
+title: "Startup"
+author: "Paul Oldham"
+date: "19/03/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Start Up With Rstudio Data bricks
+
+Run me first. 
+Add packages as needed.
+
+If you want to use Rmarkdown you will be asked to update. So do it on start up. 
+
+```{r}
+install.packages("sparklyr")
+install.packages("rmarkdown") # if using
+```
+
