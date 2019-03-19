@@ -18,6 +18,9 @@ If you want to use Rmarkdown you will be asked to update. So do it on start up.
 
 ```{r}
 install.packages("sparklyr")
-install.packages("rmarkdown") # if using
+install.packages("caTools")
 ```
 
+When using Git for the first time
+
+Enter username and password when pushing from the Git shell. 
