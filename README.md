@@ -1,6 +1,6 @@
 # Databricks with RStudio using Github
 
-This is an example repo for accessing and storing files in RStudio on the master node of a [Azure Databricks Spark Cluster](https://azure.microsoft.com/en-gb/services/databricks/). If you have found this repo you will probably have been reading the [excellent Databricks documentation](https://docs.databricks.com/) but are looking for more info for RStudio. 
+This is an example repo for accessing and storing files in RStudio on the master node of a [Azure Databricks Spark Cluster](https://azure.microsoft.com/en-gb/services/databricks/). If you have found this repo you will probably have been reading the [excellent Databricks documentation](https://docs.databricks.com/) but are looking for more info for working with RStudio. 
 
 The repo will help you to use Github to import files from a repo and to push files to a repo. If you are unfamiliar with Github read Jenny Bryan and Jim Hester's [Happy Git and GitHub for the useR](https://happygitwithr.com/).
 
