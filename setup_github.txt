@@ -1,0 +1,19 @@
+Go To: Tools > Options > Terminal > Uncheck > Connect with Websockets
+
+In terminal enter:
+
+git config user.email "myemail@something.com"
+git config user.name "My Name"
+
+You may want to use the --global flag after config
+
+Next: 
+  
+1. Commit
+Add commit message as usual etc. 
+
+2. Push
+Enter email address used on github
+Enter password used on github
+
+3. Check repo is updated. 
