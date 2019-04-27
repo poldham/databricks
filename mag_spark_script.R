@@ -14,7 +14,7 @@ authors <- tbl(sc, "authors_spark_tbl") %>%
          authors_citationcount = "_c6",
          authors_createdate = "_c7")
 
-affiliation_papers <- tbl(sc, "affiliations_papers_spark_tbl") %>% 
+affiliation_papers <- tbl(sc, "affiliation_papers_spark_tbl") %>% 
   rename(paperid = "_c0", 
          authorid = "_c1", 
          affiliationid = "_c2", 
