@@ -1,4 +1,6 @@
 # You are in RStudio on the Master Node of a Data Bricks Cluster and want to commit and push to Github from the cluster
+# See documentation: 
+# If unfamiliar with Git read: https://happygitwithr.com/
 
 1. Go To: Tools > Options > Terminal > Uncheck > Connect with Websockets
 

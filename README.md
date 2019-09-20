@@ -23,4 +23,4 @@ Follow the instructions in this repo in `setup_github.txt` to enable committing 
 
 You can then access the files each time a new RStudio instance is created on the master node of the Cluster. 
 
-To download files that you creat or to move and delete them use the [Databricks CLI](https://docs.databricks.com/user-guide/dev-tools/databricks-cli.html). It is easy to use. 
+To download files that you create or to move and delete them use the [Databricks CLI](https://docs.databricks.com/user-guide/dev-tools/databricks-cli.html). It is easy to use. 
