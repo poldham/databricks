@@ -22,15 +22,19 @@ authors <- tbl(sc, "authors_spark_tbl")
 
 mag_species_doi <- tbl(sc, "mag_species_doi")
 
+mag_species_title <- tbl(sc, "mag_ids_species_title")
+
 # join the matches from the papers table onto the species table
 
 species_doi_results <- inner_join(mag_species_doi, papers, by = "doi")
+
+species_title_results <- inner_join(mag_species_title, papers, by = "title")
 
 # write the table to the dbfs
 
 spark_write_table(species_doi_results, "species_doi_results")
 
-
+spark_write_table(species_title_results, "species_doi_results")
 
 
 
