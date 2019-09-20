@@ -1,4 +1,8 @@
-Go To: Tools > Options > Terminal > Uncheck > Connect with Websockets
+# You are in RStudio on the Master Node of a Data Bricks Cluster and want to commit and push to Github from the cluster
+
+1. Go To: Tools > Options > Terminal > Uncheck > Connect with Websockets
+
+2. Open a Terminal
 
 In terminal enter:
 
@@ -7,13 +11,14 @@ git config user.name "My Name"
 
 You may want to use the --global flag after config
 
-Next: 
+3. Do something  
   
-1. Commit
+3a. Commit
 Add commit message as usual etc. 
 
-2. Push
+3b. Push
 Enter email address used on github
 Enter password used on github
 
-3. Check repo is updated. 
+3c. Check repo is updated.
+
